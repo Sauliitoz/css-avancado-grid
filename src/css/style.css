@@ -1,0 +1,68 @@
+body {
+    border: 1px solid black;
+    height: 95vh;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.layout-videos {
+    width: 900px;
+    height: 415px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 20px;
+
+}
+
+.video-principal {
+    grid-area: 1 / 1 / 6 / 4;
+}
+
+.itulo-video-principal {
+    grid-area: 6 / 1 / 9 / 4;
+}
+
+.propaganda {
+    grid-area: 1 / 4 / 3 / 7;
+}
+
+.video2 {
+    grid-area: 3 / 4 / 5 / 7;
+}
+
+.video3 {
+    grid-area: 5 / 4 / 7 / 7;
+}
+
+.video4 {
+    grid-area: 7 / 4 / 9 / 7;
+}
+
+
+.propaganda{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: gray;
+    padding: 20px;
+}
+.video-menor{
+    width: 101px;
+    height: 71px;
+}
+.video{
+    display: flex;
+}
+.descricao-video-menor{
+    display: flex;
+    flex-direction: column;
+}
+
